@@ -21,3 +21,29 @@ npm run sonar
 (OR) 
 
 node sonar-project.js
+
+
+Generate the Nexus token by using base64 encoding as follows.
+
+echo -n 'admin:passw0rd' | openssl base64
+
+Create a .npmrc file in your project root directory and add below lines.
+
+registry=<<NexusRepoURL>>
+_auth=<<Token>>
+email=<<EmailID>>
+always-auth=true
+
+
+In package.json add below entry,
+
+"publishConfig": {
+
+"registry": "http://IPAddress:8081/repository/nodejs-mithuntechnologies/"
+
+}
+
+Execute below command to upload packages to nexus repo.
+
+npm publish
+
