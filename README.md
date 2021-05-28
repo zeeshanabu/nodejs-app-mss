@@ -8,7 +8,7 @@ cd nodejs-app-mss
 
 npm install
 
-**node app.js **
+**node app.js**
 
 (OR) 
 
