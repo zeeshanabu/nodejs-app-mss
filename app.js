@@ -14,7 +14,7 @@ app.get("/getCall", function(req,res){
 console.log("GET Method caled");
 console.log(__dirname);
 
-res.send("<h2>Welcome to Node JS express app</h2>"+appEnv.url+appEnv.port+port+process.env.LOGNAME);
+res.send("<h2>Welcome to Node JS express application</h2>"+appEnv.url+appEnv.port+port+process.env.LOGNAME);
 
 }).listen(9009);
 console.log(__dirname+"/images/mithunlogo.jpg");
