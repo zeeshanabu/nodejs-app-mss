@@ -1,4 +1,4 @@
-FROM node:18.13-alpine3.17
+FROM node
 WORKDIR /app
 COPY package.json package.json
 RUN npm install
