@@ -4,7 +4,7 @@
   "description": "This Project explains all Node JS examples",
   "main": "app.js",
   "publishConfig": {
-    "registry": "http://18.138.251.37:9980/mithuntechnologies/repository/nodejs-mss/"
+    "registry": "http://15.188.79.11:9980/mithuntechnologies/repository/citibank/"
   },
   
   "scripts": {
