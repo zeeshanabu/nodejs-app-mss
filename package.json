@@ -4,7 +4,7 @@
   "description": "This Project explains all Node JS examples",
   "main": "app.js",
   "publishConfig": {
-    "registry": "http://13.233.162.85:9980/mithuntechnologies/repository/icicibanknoderepo/"
+    "registry": "http://15.207.18.60:8081/repository/nodesjs-mss/"
   },
   
   "scripts": {
